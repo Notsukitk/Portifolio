@@ -1,0 +1,311 @@
+@font-face{
+    font-family: myFont;
+    src: url(/fonts/dogicapixel.ttf)
+}
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: myFont;
+    text-decoration-line: none;
+}
+:root{
+    --color-box: black;
+    --condition-background: no-repeat;
+}
+
+/*PAGINA INDEX*/
+.index__body__container{
+    background-image: url(/artes/fundo/5509862.jpg);
+    background-position: center;
+    background-repeat: var(--condition-background);
+    background-size: cover;
+    box-sizing: content-box;
+}
+.index__head__container{
+    display: flex;
+    justify-content: center;
+}
+.index__main__container{
+    display:flex;
+    width: auto;
+    height: 60vh;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.index__main__mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__index__align_internal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index__main__project__position{
+    align-self: flex-end;
+    padding: 6rem;
+}
+.text{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.size__personagem{
+    width: 126px;
+    height: 273px;
+}
+.size_plataform{
+    width: 18rem;
+    height: 3.75rem;
+}
+.quadrados__base{
+    width: auto;
+	height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--color-box);
+}
+.quadrados__base:nth-of-type(1){
+    opacity: 0.2;
+}
+.quadrados__base:nth-of-type(2){
+    opacity: 0.4;
+}
+.quadrados__base:nth-of-type(3){
+    opacity: 0.6;
+}
+/* PAGINA ABOUT*/
+.body__about__container{
+    background-image: url(/artes/fundo/4172161.jpg);
+    background-size: cover;
+    background-repeat: var(--condition-background);
+    box-sizing: content-box;
+    color: rgb(255, 255, 255);
+}
+.about__header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.quadrados__topo{
+    width: 100%;
+	height: 3rem;
+    flex-direction: column;
+    background-color: var(--color-box);
+}
+.quadrados__topo:nth-of-type(3){
+    opacity: 0.2;
+}
+.quadrados__topo:nth-of-type(2){
+    opacity: 0.4;
+}
+.quadrados__topo:nth-of-type(1){
+    opacity: 0.6;
+}
+.space__title__header__about{
+    padding: 2rem;
+}
+.text__main__about{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+.align__main__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__about__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.size__fall__char{
+    padding: 2rem;
+    margin-right: 20rem;
+    align-self: flex-end;
+    width: 15rem;
+    height: 7rem;
+}
+.size__fall__rocket{
+    width: 12rem;
+    height: 12rem;
+}
+/* PAGINA PROJETOS*/
+.body__projects__container{
+    background-image: url(/artes/fundo/Prancheta\ 1.png);
+    background-size: cover;
+    background-repeat: var(--condition-background);
+    box-sizing: content-box;
+    color: var(--color-box);
+}
+.main__projects__container{
+    display: flex;
+    justify-content: space-between;
+}
+.main__projects__align1{
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 10rem;
+    margin-left: 25rem;
+}
+.main__projects__align2{
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 10rem;
+}
+.main__projects__align3{
+    flex-direction: column;
+    align-self: flex-end;
+    margin-top: 10rem;
+    margin-right: 25rem;
+}
+.main__projects__align__internal__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.main__projects__box__obras{
+    background-color: rgb(217,217,217);
+    margin: 2rem;
+    border-radius: 21px;
+    width: 224px;
+    height: 124px;
+}
+.main__projects__text{
+    color: #ffffff;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.char__fall__resize{
+    width: 7rem;
+    height: 15rem;
+}
+/* PAGINA CONTATOS*/
+.body__contacts__container{
+    background-image: url(/artes/fundo/fundo\ final.png);
+    background-size: cover;
+    background-repeat: var(--condition-background);
+    box-sizing: content-box;
+}
+.main__contacts__container{
+    display: flex;
+    justify-content: space-between;
+}
+.main__contacts__column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30rem;
+    margin-left: 20rem;
+}
+.main__contacts__column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30rem;
+    margin-right: 20rem;
+}
+.position{
+    position: absolute;
+}
+.element1{
+    top: 250px;
+    left: 920px;
+}
+.element2{
+    top: 300px;
+    left: 900px;
+}
+.element3{
+    top: 480px;
+    left: 820px;
+}
+.char_flor_resize{
+    width: 7rem;
+    height: 15rem;
+}
+/*LINKS PAGINAS*/
+.text:hover{
+    color: var(--color-box);
+}
+.main__projects__text:hover{
+    color: var(--color-box);
+}
+.size__fall__rocket:hover{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+.main__index__align_internal:hover{
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+}
+/*RESPONSIVO PRA MINHA VOVÓ NAO CHORAR NA HORA DE ABRIR NO CELULAR*/
+
+@media (max-width: 1260px){
+    /*INDEX*/
+    .index__main__container{
+        width: auto;
+        height: 1080px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .index__head__size__img{
+        width: 100%;
+        height: 100%;
+    }
+    .index__main__project__position{
+        align-self: center;
+        padding: 6rem;
+    }
+    /*ABOUTS*/
+    .about__header__container{
+        line-height: 5rem;
+        color: var(--color-box)
+    }
+    .size__fall__char{
+        padding: 2rem;
+        margin-right: 5rem;
+        align-self: center;
+    }
+    /*PROJECTS*/
+    .main__projects__align1{
+        margin-left: auto;
+    }
+    .main__projects__align3{
+        margin-right: auto;
+    }
+}
+@media (max-width: 1700px){
+    /*CONTACTS*/
+    .main__contacts__column1{
+        margin-left: auto;
+    }
+    .main__contacts__column3{
+        margin-right: auto;
+        margin-top: 40rem;
+        
+    }
+    .element1{
+        top: 250px;
+        left: auto;
+    }
+    .element2{
+        top: 300px;
+        left: auto;
+    }
+    .element3{
+        top: 480px;
+        left: auto;
+    }
+}
